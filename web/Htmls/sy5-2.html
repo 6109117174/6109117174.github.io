@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            child-align: middle;
+        }
+        table{
+            border-style: double;
+            width: 700px;
+            height: 1246px;
+            background: url("bg.jpg");
+            background-size: 100%;
+            border-collapse: collapse;
+        }
+        h2{
+            text-align: center;
+            font-weight: bold;
+            font-family: 黑体;
+            color: #0033cc;
+        }
+        td{
+            collapse: 1;
+            color: rgba(255,17,31,0.57)
+        }
+        p{
+            color: #e91cff
+        }
+    </style>
+</head>
+<body>
+<form>
+        <table border="2">
+            <tr><td style="text-align: center"><h2>大学生暑期社会实践调查问卷</h2></td></tr>
+            <tr><td><p>
+                您好！<br>
+                &emsp;&emsp;为了更好的了解人们对近年来计算机类专业填报火热现象
+                的看法，特制定本问卷，希望得到您的配合。请认真阅读并回答以下问题，您的回答将
+                直接影响本调查的可行度和有效性，真诚感谢您的支持，祝您天天愉快，谢谢
+            </p></td></tr>
+            <tr><td>1.您的性别：<br><br><input type="radio" name="sex">男<br><input type="radio" name="sex">女</td></tr>
+            <tr><td>2.您的学校：<br><br><input type="text"></td></tr>
+            <tr><td>3.您的年级：<br><br><input type="radio" name="year">大一<br><input type="radio" name="year">大二<br><input type="radio" name="year">大三<br><input type="radio" name="year">大四</td></tr>
+            <tr><td>4.报考该专业的原因：<br><br><input type="checkbox" name="reason">自己感兴趣<br><input type="checkbox" name="reason">对将来发展有利<br><input type="checkbox" name="reason">适应社会<br><input type="checkbox" name="reason">父母主张<br><input type="checkbox" name="reason">老师建议<br><input type="checkbox" name="reason">被学校调配<br><input type="checkbox" name="reason">其他</td></tr>
+            <tr><td>5.您对该专业的建议：<br><br><input type="checkbox" name="advice">招收时重质不重量<br><input type="checkbox" name="advice">师资力量要改进<br><input type="checkbox" name="advice">要更适应社会需求<br><input type="checkbox" name="advice">加强专业实验室建设<br><input type="checkbox" name="advice">其他</td></tr>
+            <tr><td>6.您认为该专业学生有必要参加社会实践：<br><br><input type="radio" name="need">有必要<input type="radio" name="need">没有必要<input type="radio" name="need">无所谓</td></tr>
+            <tr><td>7.您的父母是否赞成您读该专业：<br><br><input type="radio" name="support">很赞成，希望如此<br><input type="radio" name="support">一般，不是很高兴<br><input type="radio" name="support">不了解</td></tr>
+            <tr><td>8.您对该学校的建议<br><br><textarea style="overflow-y: auto;width: 350px;height: 100px">请您提出宝贵的建议：</textarea></td></tr>
+            <tr><td style="text-align: center"><input type="submit" value="提交答案">&emsp;&emsp;&emsp;&emsp;<input type="reset" value="清空"></td></tr>
+            <tr><td style="text-align:center;">版权所有：南昌大学计算机科学与技术173班熊一睿</td></tr>
+        </table>
+</form>
+</body>
+</html>
